@@ -1,5 +1,7 @@
 # Alexa Clone
 
+**🚧 This project is currently under development and is not working as expected. We're not actively working on it at the moment, but feel free to explore the code. 🚧**
+
 This project is an Alexa clone built with Next.js, utilizing the Gorq SDK for AI capabilities, ShadCN UI for the user interface, Tailwind CSS for styling, and both the Web Speech API for speech synthesis and React Speech to Text for voice recognition.
 
 ## Features
@@ -22,8 +24,6 @@ This project is an Alexa clone built with Next.js, utilizing the Gorq SDK for AI
    ```bash
    git clone https://github.com/yourusername/alexa-clone.git
    cd alexa-clone
-   ```
-
 2. Install dependencies:
    ```bash
    npm install
