@@ -18,9 +18,9 @@ const useSpeechSynthesis = () => {
     if (!text) return;
 
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.rate = 1;   
-    utterance.pitch = 1;    
-    utterance.volume = 0.5;  
+    utterance.rate = 0.8;   
+    utterance.pitch = 0.8;    
+    utterance.volume = 1;  
 
     if (selectedVoice) {
       utterance.voice = selectedVoice;

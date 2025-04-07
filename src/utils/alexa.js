@@ -1,13 +1,12 @@
 import Groq from "groq-sdk";
 
 const groq = new Groq({
-  apiKey: process.env.GROQ_API_KEY || `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`,
+  apiKey: process.env.GROQ_API_KEY,
 });
 
 export const reqGroqAI = async (content,language = 'hi') => {
-  const systemMessage = language === 'hi'
-  ? "आप एक सहायक हैं जिसका नाम एलेक्सा है। उपयोगकर्ता प्रश्नों का उत्तर मित्रवत और जानकारीपूर्ण तरीके से दें।"
-  : "You are a helpful assistant named Alexa. Respond to user queries in a friendly and informative manner.";
+  const systemMessage = 
+  "hindi main reposne generate karo no english jo aache se samjh aa jaye" ;
 
   const res = await groq.chat.completions.create({
     messages: [
