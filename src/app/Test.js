@@ -14,7 +14,7 @@ export default function Test() {
       try {
         if (!isLoaded) {
           await init(
-           'uA6YVSucG1Gz2v7BgAaHJWGazfBBTNxo9V6eY5L4jrJWbq3MQbC4Fg==',
+           '',
             { publicPath: "/hey-Vanya.ppn", label: "Hey Vanya" },
             { publicPath: "/porcupine_params.pv" }
           );
