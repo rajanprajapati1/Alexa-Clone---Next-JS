@@ -30,7 +30,7 @@ export default function MobileAudioWaveform() {
     const initializePorcupine = async () => {
       try {
         await init(
-          process.env.PORCUPINE_API_KEY,
+          "uA6YVSucG1Gz2v7BgAaHJWGazfBBTNxo9V6eY5L4jrJWbq3MQbC4Fg==,
           { publicPath: "/hey-Vanya.ppn", label: "Hey Vanya" },
           { publicPath: "/porcupine_params.pv" }
         );
