@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Alexa Clone
+
+**🚧 This project is currently under development and is not working as expected. We're not actively working on it at the moment, but feel free to explore the code. 🚧**
+
+This project is an Alexa clone built with Next.js, utilizing the Gorq SDK for AI capabilities, ShadCN UI for the user interface, Tailwind CSS for styling, and both the Web Speech API for speech synthesis and React Speech to Text for voice recognition.
+
+## Features
+
+- **Voice Recognition**: Use React Speech to Text to convert user speech into text.
+- **Speech Synthesis**: Implement Web Speech API to read responses back to users.
+- **AI Integration**: Leverage the Gorq SDK for intelligent responses and interactions.
+- **Responsive UI**: Built with ShadCN UI components and styled with Tailwind CSS for a modern look.
+
+## Prerequisites
+
+- Node.js (>=14.x)
+- npm or yarn
 
 ## Getting Started
 
-First, run the development server:
+### Installation
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/alexa-clone.git
+   cd alexa-clone
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Set up environment variables:
+   Create a `.env.local` file in the root directory and add the necessary environment variables for the Gorq SDK and any other required configurations.
+
+### Running the Project
+
+To start the development server, run:
 ```bash
 npm run dev
 # or
 yarn dev
+```
+Open your browser and navigate to `http://localhost:3000` to see your Alexa clone in action!
+
+### Building for Production
+
+To build the project for production, use:
+```bash
+npm run build
 # or
-pnpm dev
+yarn build
+```
+To start the production server, run:
+```bash
+npm start
 # or
-bun dev
+yarn start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Speak into the microphone to interact with the Alexa clone.
+- Ask questions or give commands, and the AI will respond accordingly.
+- The interface is designed to be intuitive and responsive across devices.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies Used
 
-## Learn More
+- **Next.js**: A React framework for server-rendered applications.
+- **Gorq SDK**: For AI functionalities and natural language processing.
+- **ShadCN UI**: A component library for building user interfaces.
+- **Tailwind CSS**: For utility-first styling.
+- **Web Speech API**: For converting text to speech.
+- **React Speech to Text**: For converting speech to text.
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Acknowledgements
 
-## Deploy on Vercel
+- [Next.js](https://nextjs.org/)
+- [Gorq SDK](https://gorq.io/)
+- [ShadCN UI](https://ui.shadcn.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
+- [React Speech to Text](https://github.com/MathieuDartus/react-speech-to-text)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
